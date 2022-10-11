@@ -1,6 +1,4 @@
 <?php session_start(); 
-        
-           
     if(isset($_POST['submit_user'])){
         
         $user = array('user' => '123');

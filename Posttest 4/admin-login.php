@@ -12,7 +12,7 @@
                    
         if (isset($admin[$Username]) && $admin[$Username] == $Password){
                 
-                $_SESSION['UserData']['Username']=$admin[$Username];
+                $_SESSION['Username']=$admin[$Username];
                 header("location:admin.php");
                 exit;
         } else {
